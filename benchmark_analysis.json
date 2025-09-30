@@ -1,0 +1,204 @@
+{
+  "overall_stats": {
+    "total_responses": 50,
+    "average_response_time": 4.05118,
+    "min_response_time": 1.251,
+    "max_response_time": 17.617
+  },
+  "by_prompt_type": {
+    "gamemaster_action_selector": {
+      "count": 6,
+      "average": 6.115666666666667,
+      "median": 3.2565,
+      "min": 2.131,
+      "max": 17.617,
+      "std_dev": 6.014149438338448,
+      "times": [
+        2.131,
+        2.611,
+        17.617,
+        7.852,
+        3.902,
+        2.581
+      ]
+    },
+    "generate_search_query": {
+      "count": 8,
+      "average": 5.517875,
+      "median": 4.2105,
+      "min": 2.596,
+      "max": 11.244,
+      "std_dev": 3.175559767865457,
+      "times": [
+        2.596,
+        3.384,
+        3.639,
+        4.32,
+        4.101,
+        11.244,
+        5.146,
+        9.713
+      ]
+    },
+    "unknown": {
+      "count": 1,
+      "average": 11.019,
+      "median": 11.019,
+      "min": 11.019,
+      "max": 11.019,
+      "std_dev": 0,
+      "times": [
+        11.019
+      ]
+    },
+    "dialogue_response": {
+      "count": 8,
+      "average": 5.6815,
+      "median": 4.093500000000001,
+      "min": 2.46,
+      "max": 10.397,
+      "std_dev": 3.4267031219109554,
+      "times": [
+        3.213,
+        9.332,
+        10.397,
+        4.974,
+        3.14,
+        9.362,
+        2.574,
+        2.46
+      ]
+    },
+    "evaluate_mood": {
+      "count": 8,
+      "average": 2.22575,
+      "median": 1.963,
+      "min": 1.251,
+      "max": 4.946,
+      "std_dev": 1.1537263540372127,
+      "times": [
+        1.97,
+        1.403,
+        2.303,
+        2.119,
+        1.858,
+        1.251,
+        4.946,
+        1.956
+      ]
+    },
+    "native_action_selector": {
+      "count": 12,
+      "average": 2.53525,
+      "median": 2.379,
+      "min": 1.453,
+      "max": 5.198,
+      "std_dev": 0.9923619322331216,
+      "times": [
+        2.499,
+        1.453,
+        2.516,
+        2.849,
+        2.894,
+        2.111,
+        1.805,
+        1.64,
+        1.99,
+        3.209,
+        5.198,
+        2.259
+      ]
+    },
+    "dialogue_speaker_selector": {
+      "count": 7,
+      "average": 2.4317142857142855,
+      "median": 2.232,
+      "min": 1.716,
+      "max": 4.55,
+      "std_dev": 0.9779888742185353,
+      "times": [
+        2.232,
+        2.422,
+        1.93,
+        2.409,
+        4.55,
+        1.716,
+        1.763
+      ]
+    }
+  },
+  "fastest_responses": [
+    {
+      "id": "req_2518dd35205d61dd_19980904405",
+      "prompt_type": "evaluate_mood",
+      "request_timestamp": "2025-09-25 07:09:22.309",
+      "response_timestamp": "2025-09-25 07:09:23.560",
+      "response_time": 1.251
+    },
+    {
+      "id": "req_ee03b815cceb2c22_199808ed483",
+      "prompt_type": "evaluate_mood",
+      "request_timestamp": "2025-09-25 07:07:48.227",
+      "response_timestamp": "2025-09-25 07:07:49.630",
+      "response_time": 1.403
+    },
+    {
+      "id": "req_d1d4f2f44866a721_199808ed4e3",
+      "prompt_type": "native_action_selector",
+      "request_timestamp": "2025-09-25 07:07:48.324",
+      "response_timestamp": "2025-09-25 07:07:49.777",
+      "response_time": 1.453
+    },
+    {
+      "id": "req_2df6f4f6fb08bb70_1998090446a",
+      "prompt_type": "native_action_selector",
+      "request_timestamp": "2025-09-25 07:09:22.411",
+      "response_timestamp": "2025-09-25 07:09:24.051",
+      "response_time": 1.64
+    },
+    {
+      "id": "req_694e08d29639fe6a_199809085df",
+      "prompt_type": "dialogue_speaker_selector",
+      "request_timestamp": "2025-09-25 07:09:39.169",
+      "response_timestamp": "2025-09-25 07:09:40.885",
+      "response_time": 1.716
+    }
+  ],
+  "slowest_responses": [
+    {
+      "id": "req_0150f8f02dea1df0_19980906767",
+      "prompt_type": "generate_search_query",
+      "request_timestamp": "2025-09-25 07:09:31.367",
+      "response_timestamp": "2025-09-25 07:09:41.080",
+      "response_time": 9.713
+    },
+    {
+      "id": "req_3995f09cb8ddf164_199808ee214",
+      "prompt_type": "dialogue_response",
+      "request_timestamp": "2025-09-25 07:07:51.719",
+      "response_timestamp": "2025-09-25 07:08:02.116",
+      "response_time": 10.397
+    },
+    {
+      "id": "req_9faa8af78fc8bdfd_199808e6563",
+      "prompt_type": "unknown",
+      "request_timestamp": "2025-09-25 07:07:19.781",
+      "response_timestamp": "2025-09-25 07:07:30.800",
+      "response_time": 11.019
+    },
+    {
+      "id": "req_d2f2dc330bd65299_199809016e8",
+      "prompt_type": "generate_search_query",
+      "request_timestamp": "2025-09-25 07:09:10.760",
+      "response_timestamp": "2025-09-25 07:09:22.004",
+      "response_time": 11.244
+    },
+    {
+      "id": "req_eae7f6c1037d0ec7_199808fc137",
+      "prompt_type": "gamemaster_action_selector",
+      "request_timestamp": "2025-09-25 07:08:48.824",
+      "response_timestamp": "2025-09-25 07:09:06.441",
+      "response_time": 17.617
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "providers": [
+    {
+      "name": "nano-gpt",
+      "endpoint": "https://nano-gpt.com/api/v1/chat/completions",
+      "api_key": "12345"
+    },
+    {
+      "name": "openrouter",
+      "endpoint": "https://openrouter.com/api/v1/chat/completions",
+      "api_key": "12345"
+    }
+  ],
+  "models": [
+    {
+      "name": "Kimi-K2-Instruct-0905",
+      "model_name": "moonshotai/Kimi-K2-Instruct-0905",
+      "provider": "nano-gpt"
+    },
+    {
+      "name": "Kimi-K2-Instruct-FP4",
+      "model_name": "baseten/Kimi-K2-Instruct-FP4",
+      "provider": "nano-gpt"
+    }
+  ]
+}
